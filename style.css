@@ -1425,11 +1425,8 @@ ul {
 .slider,
 .slider>div {
   background-position: center;
-  display: flex;
-  width: 80%;
-  height: 215px;
-  padding-top: 50px;
-  position: relative;
+  width: 100%;
+  height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -1437,8 +1434,6 @@ ul {
   -o-transition: transform 0.4s;
   -webkit-transition: transform 0.4s;
   transition: transform 0.4s;
-  justify-content: center;
-  align-items: center;
 }
 
 i.left {
@@ -1459,7 +1454,7 @@ i.left {
 
 .slider>i {
   position: absolute;
-  top: 50%;
+  top: 40%;
   text-shadow: 0 10px 2px #223422;
   transition: 0.3s;
   width: 0px;
@@ -1649,38 +1644,24 @@ i.right {
 
 /* -------------------------------------- */
 
-#ns-slider1 {
-  height: 376px;
-  min-width: 60%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-}
-
-.product-slider-wrap {
-  display: flex;
-  background-image: url(img/offer_bg.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 640px) {
-  #ns-slider1 {
-    height: 234px;
-    min-width: 60%;
-    background-repeat: no-repeat;
-    background-size: contain;
+
+  .slider,
+  .slider>div {
+    background-position: center;
     width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -moz-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    transition: transform 0.4s;
   }
+
 
   i.left {
     border-style: solid;
@@ -1694,7 +1675,7 @@ i.right {
 
   .slider>i {
     position: absolute;
-    top: 50%;
+    top: 35%;
     text-shadow: 0 10px 2px #223422;
     transition: 0.3s;
     width: 0px;
@@ -1707,10 +1688,24 @@ i.right {
   }
 }
 
+@media screen and (max-width: 425px) {
 
-@media screen and (max-width: 375px) {
+  .slider,
+  .slider>div {
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -moz-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    transition: transform 0.4s;
+  }
+
   #ns-slider1 {
-    height: 200px;
+    height: 110px;
     min-width: 60%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1739,7 +1734,69 @@ i.right {
 
   .slider>i {
     position: absolute;
-    top: 50%;
+    top: 30%;
+    text-shadow: 0 10px 2px #223422;
+    transition: 0.3s;
+    width: 0px;
+    margin: 10px 3px;
+    cursor: pointer;
+    line-height: 0;
+    box-sizing: content-box;
+    border-radius: 3px;
+    z-index: 4;
+  }
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+  .slider,
+  .slider>div {
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -moz-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    transition: transform 0.4s;
+  }
+
+  #ns-slider1 {
+    height: 110px;
+    min-width: 60%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+
+  i.left {
+    border-style: solid;
+    border-width: 22px 22px 22px 0;
+    border-color: transparent #F8FCFD transparent transparent;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    filter: drop-shadow(0px 0px 8px rgba(76, 168, 166));
+  }
+
+  i.right {
+    border-style: solid;
+    border-width: 22px 0px 22px 22px;
+    border-color: transparent transparent transparent #ffffff;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    filter: drop-shadow(0px 0px 8px rgba(76, 168, 166));
+  }
+
+  .slider>i {
+    position: absolute;
+    top: 30%;
     text-shadow: 0 10px 2px #223422;
     transition: 0.3s;
     width: 0px;
@@ -1753,6 +1810,21 @@ i.right {
 }
 
 @media screen and (max-width: 320px) {
+
+  .slider,
+  .slider>div {
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -moz-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    transition: transform 0.4s;
+  }
+
   #ns-slider1 {
     height: 164px;
     min-width: 60%;
@@ -1763,7 +1835,7 @@ i.right {
 
   .slider>i {
     position: absolute;
-    top: 50%;
+    top: 25%;
     text-shadow: 0 10px 2px #223422;
     transition: 0.3s;
     width: 0px;
@@ -1777,7 +1849,7 @@ i.right {
 
   i.left {
     border-style: solid;
-    border-width: 22px 22px 22px 0;
+    border-width: 20px 20px 20px 0;
     border-color: transparent #F8FCFD transparent transparent;
     display: inline-block;
     width: 0;
@@ -1787,11 +1859,77 @@ i.right {
 
   i.right {
     border-style: solid;
-    border-width: 22px 0px 22px 22px;
+    border-width: 20px 0px 20px 20px;
     border-color: transparent transparent transparent #ffffff;
     display: inline-block;
     width: 0;
     height: 0;
     filter: drop-shadow(0px 0px 8px rgba(76, 168, 166));
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.offer-frame {
+  position: absolute;
+  top: 35%;
+  left: 0%;
+  height: 49%;
+  width: 100%;
+  animation: 1.4s ponpon ease-in-out infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
