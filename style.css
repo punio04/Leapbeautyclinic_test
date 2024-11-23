@@ -1488,11 +1488,11 @@ i.right {
 }
 
 .slider>.left {
-  left: -100px;
+  left: 0px;
 }
 
 .slider>.right {
-  right: -100px;
+  right: 0px;
 }
 
 .slider:hover>.left {
