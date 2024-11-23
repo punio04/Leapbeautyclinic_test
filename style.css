@@ -1679,7 +1679,7 @@ i.right {
     text-shadow: 0 10px 2px #223422;
     transition: 0.3s;
     width: 0px;
-    margin: 10px 7px;
+    margin: 10px 10px;
     cursor: pointer;
     line-height: 0;
     box-sizing: content-box;
@@ -1688,7 +1688,7 @@ i.right {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
 
   .slider,
   .slider>div {
@@ -1714,7 +1714,7 @@ i.right {
 
   i.left {
     border-style: solid;
-    border-width: 22px 22px 22px 0;
+    border-width: 18px 18px 18px 0;
     border-color: transparent #F8FCFD transparent transparent;
     display: inline-block;
     width: 0;
@@ -1724,7 +1724,7 @@ i.right {
 
   i.right {
     border-style: solid;
-    border-width: 22px 0px 22px 22px;
+    border-width: 18px 0px 18px 18px;
     border-color: transparent transparent transparent #ffffff;
     display: inline-block;
     width: 0;
@@ -1738,7 +1738,7 @@ i.right {
     text-shadow: 0 10px 2px #223422;
     transition: 0.3s;
     width: 0px;
-    margin: 10px 3px;
+    margin: 10px 13px;
     cursor: pointer;
     line-height: 0;
     box-sizing: content-box;
@@ -1776,7 +1776,7 @@ i.right {
 
   i.left {
     border-style: solid;
-    border-width: 22px 22px 22px 0;
+    border-width: 18px 18px 18px 0;
     border-color: transparent #F8FCFD transparent transparent;
     display: inline-block;
     width: 0;
@@ -1786,7 +1786,7 @@ i.right {
 
   i.right {
     border-style: solid;
-    border-width: 22px 0px 22px 22px;
+    border-width: 18px 0px 18px 18px;
     border-color: transparent transparent transparent #ffffff;
     display: inline-block;
     width: 0;
@@ -1800,7 +1800,7 @@ i.right {
     text-shadow: 0 10px 2px #223422;
     transition: 0.3s;
     width: 0px;
-    margin: 10px 3px;
+    margin: 10px 13px;
     cursor: pointer;
     line-height: 0;
     box-sizing: content-box;
@@ -1839,7 +1839,7 @@ i.right {
     text-shadow: 0 10px 2px #223422;
     transition: 0.3s;
     width: 0px;
-    margin: 10px 3px;
+    margin: 10px 8px;
     cursor: pointer;
     line-height: 0;
     box-sizing: content-box;
@@ -1849,7 +1849,7 @@ i.right {
 
   i.left {
     border-style: solid;
-    border-width: 20px 20px 20px 0;
+    border-width: 16px 16px 16px 0;
     border-color: transparent #F8FCFD transparent transparent;
     display: inline-block;
     width: 0;
@@ -1859,7 +1859,7 @@ i.right {
 
   i.right {
     border-style: solid;
-    border-width: 20px 0px 20px 20px;
+    border-width: 16px 0px 16px 16px;
     border-color: transparent transparent transparent #ffffff;
     display: inline-block;
     width: 0;
